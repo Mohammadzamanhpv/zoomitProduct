@@ -1,0 +1,453 @@
+.content {
+    width: 1440px;
+}
+
+
+/* landing box */
+.content>.landBox {
+    width: 1440px;
+    height: 490px;
+    padding: 64px 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content>.landBox>.landingText {
+    width: 660px;
+    height: 426px;
+
+    padding: 70px 0 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content>.landBox>.landingText>span {
+    font-family: vazirSemiBold;
+}
+
+.content>.landBox>.landingText>h1 {
+    font-family: vazirBold;
+}
+
+.content>.landBox>img {
+    width: 660px;
+    height: 426px;
+}
+
+.landingText>.landSearch {
+    width: 620px;
+    height: 42px;
+    border: 1px solid gray;
+    border-radius: 50px;
+
+    color: gray;
+    cursor: pointer;
+
+    position: relative;
+    display: flex;
+
+}
+
+.landingText>.landSearch>input {
+    width: 620px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    text-indent: 40px;
+
+    outline: none;
+
+
+}
+
+.landingText>.landSearch>span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+
+    display: inline-block;
+    z-index: 1;
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+    background: url(../img/svg/light/searchWhite.svg)no-repeat;
+    background-position: center;
+    background-color: #000;
+    background-size: 20px 20px;
+
+}
+
+/* land Box responsive */
+
+/* ctg means Category */
+/* ctg (category) slider */
+.ctgSlid {
+    width: 1440px;
+    height: 200px;
+    /* border: 1px solid black; */
+
+    padding: 40px 60px 48px;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.ctgSlid>.openEye {
+    width: 330px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: vazirMedium;
+
+
+}
+
+.ctgSlid>.openEye>h3 {
+    border-right: 4px solid red;
+    text-indent: 10px;
+    font-size: 16px;
+
+    padding: none;
+    margin: 2px 0 0;
+}
+
+.ctgSlid>.openEye>h4 {
+    color: #7d7d87;
+    font-family: vazirLight;
+    font-size: 14px;
+
+}
+
+/* left slider */
+.ctgSlid>.ctgSlider {
+    width: 928px;
+    height: 98px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+}
+
+.ctgSlid>.ctgSlider>.slideShow {
+    width: 1902px;
+    height: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    /* border: 1px solid black; */
+
+}
+
+.ctgSlid>.ctgSlider>.slideShow>.ctgTarget {
+    width: 117px;
+    padding: 0 2px;
+
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+
+    font-size: 13px;
+    color: #7d7d87;
+
+    cursor: pointer;
+
+}
+
+.ctgSlid>.next {
+    width: 48px;
+    height: 98px;
+
+    background: url(../img/svg/light/next.svg) no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+
+    position: absolute;
+    right: 400px;
+
+    cursor: pointer;
+}
+
+.ctgSlid>.perv {
+    width: 48px;
+    height: 98px;
+
+    background: url(../img/svg/light/perv.svg)no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+
+    position: absolute;
+    left: 10px;
+
+    cursor: pointer;
+}
+
+/* ctg (category) slider responsive */
+
+
+/* landing Content */
+.landingContent {
+    width: 1440px;
+    height: 3000px;
+    padding: 48px 0 0;
+    /* border: 1px solid black; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+/* landing Content responsive */
+
+/* popularPhonesSlid */
+.popularPhonesSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* popularPhonesSlid responsive */
+
+/* popularHomiesSlid */
+.popularHomiesSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* popularHomiesSlid responsive */
+
+/* popularPcsSlid */
+.popularPcsSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* popularPcsSlid responsive */
+
+/* popularLaptopsSlid */
+.popularLaptopsSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* popularLaptopsSlid responsive */
+
+/* populargamingSlid */
+.populargamingSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* populargamingSlid responsive */
+
+/* popularHeadsetsSlid */
+.popularHeadsetsSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* popularHeadsetsSlid responsive */
+
+/* newestProductSlid */
+.newestProductSlid {
+    width: 1320px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+/* newestProductSlid responsive */
+
+
+/* xSlid short address  */
+/* .xSlid ==> .topSection => */
+.xSlid>.topSection {
+    width: 1320px;
+    height: 32px;
+    margin: 0 0 32px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xSlid>.topSection>h2 {
+    width: 180px;
+    height: 25px;
+    padding: 0 16px 0 0;
+    border-right: 4px solid red;
+
+    font-size: 16px;
+    color: #383e43
+}
+
+.xSlid>.topSection>a {
+    width: 180px;
+    height: 32px;
+    padding: 4px 16px 4px 0;
+    border: 1px solid blue;
+    font-size: 14px;
+
+    text-decoration: none;
+    color: #383e43;
+
+
+    background: url(../img/svg/light/back.svg)no-repeat;
+    background-position: 5px;
+}
+
+/* .xSlid ==> .bottomSection => */
+
+
+.xSlid>.bottomSection {
+    width: 100%;
+    height: 336px;
+    /* border: 1px solid burlywood; */
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.xSlid>.bottomSection>.swiperWarpper {
+    width: 100%;
+    height: 32px;
+
+    /* border: 1px solid black; */
+}
+
+.xSlid>.bottomSection>.swiperWarpper>span {
+    border: 1px solid black;
+
+    height: 100%;
+    margin-left: 8px;
+    padding: 8px 16px;
+    border-radius: 50px;
+
+    font-size: 12px;
+    color: #383e43;
+    font-family: vazirBold;
+
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.xSlid>.bottomSection>a.next {}
+
+.xSlid>.bottomSection>a.perv {}
+
+
+.xSlid>.bottomSection>.slideDesign {
+    width: 1320px;
+    height: 270px;
+    border: 1px solid black;
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow {
+    width: 200%;
+    height: 100%;
+
+    border: 1px solid black;
+
+    display: flex;
+
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox {
+    border: 1px solid black;
+
+    width: 200px;
+    height: 268px;
+    padding: 24px 0 16px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+    position: relative;
+
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>img {
+    width: 200px;
+    height: 133px;
+
+    border: 1px solid black;
+
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>.rate {
+    width: 33px;
+    height: 15px;
+
+    border: 1px solid red;
+
+    position: absolute;
+    top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>.rate>img {
+    width: 11px;
+    height: 11px;
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>.rate>span {
+    color: #12A761;
+    font-size: 12px;
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>.productInfo {
+    width: 200px;
+    height: 84px;
+
+    margin: 8px 0 0;
+    padding: 0 16px;
+
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+
+
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>.productInfo>.productName {
+    font-family: VazirBold;
+    font-size: 13px;
+
+}
+
+.xSlid>.bottomSection>.slideDesign>.slideShow>.productBox>.productInfo>.productPrice {
+    font-family: VazirSemiBold;
+
+}
+
+/* xSlid short address  responsive*/

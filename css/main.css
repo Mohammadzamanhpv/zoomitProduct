@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+
+
+    /* body adjust center */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    direction: rtl;
+}
+
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: VazirLight;
+}

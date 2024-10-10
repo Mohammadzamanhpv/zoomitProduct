@@ -1,0 +1,149 @@
+/* ads style */
+#bigAds {
+    width: 1440px;
+    height: 144px;
+    /* border: 1px solid red; */
+
+    position: relative;
+}
+
+#bigAds>.closeAds {
+    width: 18px;
+    height: 18px;
+
+    background-image: url(../img/svg/light/closeBtn.svg);
+    background-color: red;
+
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bigAds>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* screen mode  */
+
+.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* header style */
+#header {
+    width: 1440px;
+    height: 64px;
+    /* border: 1px solid black; */
+
+    /* background-color: #fff; */
+    padding: 0 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    width: 800px;
+    height: 48px;
+    margin: 10px 0 10px 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header>.right>.headerLogo {
+    width: 110px;
+    height: 20px;
+
+    margin: 0 0 0 48px;
+}
+
+#header>.right>.headerLogo>img {
+    width: 110px;
+    height: 20px;
+}
+
+/* #header>.right>.ctgHeader {} */
+
+/* #header>.right>.ctgHeader>div {} */
+
+/* #header>.right>.comparsion {}
+
+#header>.right>.shopingGuides {}
+
+#header>.right>.reviews {} */
+
+/* #header>.right>.zoomitPlus {} */
+
+/* #header>.right>.zoomitPlus >div{} */
+
+#header>.right>.headerSearch {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#header>.right>.headerSearch>.searchImg {
+    width: 20px;
+    height: 20px;
+
+    margin-left: 5px;
+    background: url(../img/svg/light/searchWhite.svg) no-repeat;
+    background-position: center;
+    background-color: #000;
+    border-radius: 50px;
+
+}
+
+#header>.left {
+    width: 70px;
+    height: 48px;
+
+    padding: 5px 0 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #header>.left>.darkMode {} */
+
+#header>.left>.darkMode>img {
+    width: 16px;
+    height: 16px;
+}
+
+/* #header>.left>.account {} */
+
+#header>.left>.account>img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* red line in site */
+
+/* .right>span.redLine {
+    width: 4px;
+    height: 28px;
+    border: 2px solid red;
+    border-radius: 4px;
+    position: absolute;
+    right: -10;
+
+} */
